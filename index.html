@@ -2,12 +2,18 @@
   <head>
     <title>Roger's Website</title>
     <style>
-      background {color:pink;}
       body {margin:100px;}
+      h1 {margin-bottom: 50px;}
+      blink {
+        -webkit-animation-name: blink;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+        -webkit-animation-duration: 1s;
+      }
     </style>
   </head>
 
-  <h1>Hello. I'm Roger!</h1>
+  <h1><blink>Hello. I'm Roger!</blink></h1>
 
   <p>
   I'm one of only 14 people in the world who hold a law degree
