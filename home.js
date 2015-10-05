@@ -1,6 +1,6 @@
 $(document).ready(function() {
   printIntroMessages();
-}
+})
 
 function printIntroMessage() {
   console.log("Hello Michael P.");
