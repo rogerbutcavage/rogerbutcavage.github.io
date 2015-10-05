@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  printIntroMessages();
+  printPageLoadMessages();
 })
 
-function printIntroMessage() {
+function printPageLoadMessages() {
   console.log("Hello Michael P.");
   console.log("This is much better, don't you think?");
 }
