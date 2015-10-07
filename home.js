@@ -4,10 +4,12 @@ $(document).ready(function() {
 
 function printPageLoadMessages() {
   console.log("Hello again, Michael P.");
-  console.log("This is much better, don't you think?\n");
+  console.log("This is much better, don't you think?");
+  console.log("\n");
   console.log("You are about to embark on a serious mission.");
   console.log("If you ever get stuck, feel free to email me, Roger.");
-  console.log("I'm here to help.\n");
+  console.log("I'm here to help.");
+  console.log("\n");
   console.log("Now, go find something I left for you in the bathroom.");
 }
 
